@@ -28,10 +28,10 @@
 ;; id - The ID of the todo to update.
 ;; title - The new title of the todo.
 ;; is-complete - The new completion status of the todo.
-(defn update-todo [id title is-complete]
+(defn update-todo [id title description]
   (update items
           (set-fields {:title title
-                       :is_complete is-complete})
+                       :description description})
           (where {:id [= id]})))
 
 ;; Retrieves a specific todo from the database.
