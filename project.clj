@@ -1,6 +1,5 @@
-(defproject todo "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+(defproject todo "0.1.0"
+  :description "This is a basic Create, Read, Update, and Delete (CRUD) application."
   :min-lein-version "2.0.0"
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [compojure "1.6.1"]
